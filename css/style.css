@@ -1,15 +1,15 @@
 /* main rules */
 body{
   text-align: center;
-  padding:50px 8px 8px;
+  padding:100px 10px 10px;
 }
 
 .img-why{
-    background-color: #428bca;
     border-radius: 50%;
     padding: 30px;
     height: 260px;
     margin-top: 80px;
+    background-color: #428bca;
   }
 
 img{
@@ -17,7 +17,7 @@ img{
   margin-top: 20px;
 }
 
-.how-it-works, .why, main{
+.how-it-works, main{
   margin-top: 100px;
   background-color: #f9f9f9;
 }
@@ -27,9 +27,34 @@ h2{
 }
 
 h3{
-  margin: 18px ;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 hr{
   margin-top: 10px;
 }
+
+/* media query */
+/* SMARTPHONE */
+@media all and (max-width: 767px){
+
+img{
+  margin-top: 20px;
+  height: 150px;
+}
+
+.img-why{
+  border-radius: 50%;
+  padding: 30px;
+  height: 150px;
+  margin-top: 20px;
+  background-color: #428bca;
+  }
+}
+
+/* TABLET */
+@media all and (min-width: 768px) and (max-width: 991px){
+
+  h2{
+        font-size: 2.5em;

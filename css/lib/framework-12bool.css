@@ -82,9 +82,8 @@
   .col-xs-12 {
     width: calc((100% / 12) * 12);
   }
-}
 
-  /*offset rules */
+/*offset rules */
   .col-xs-offset-1 {
     margin-left: calc((100% / 12) * 1);
   }
@@ -335,6 +334,7 @@
     margin-left: calc((100% / 12) * 11);
   }
 
-  .col-ld-offset-12 {                               
+  .col-ld-offset-12 {
     margin-left: calc((100% / 12) * 12);
   }
+}
