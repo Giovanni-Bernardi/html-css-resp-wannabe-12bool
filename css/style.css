@@ -23,10 +23,11 @@ img{
 }
 
 h2{
-  font-size: 2em;
+  font-size: 30px;
 }
 
 h3{
+  font-size: 20px;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -56,5 +57,12 @@ img{
 /* TABLET */
 @media all and (min-width: 768px) and (max-width: 991px){
 
-  h2{
-        font-size: 2.5em;
+h2{
+  font-size: 30px;
+}
+
+h3{
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
